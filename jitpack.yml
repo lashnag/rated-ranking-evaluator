@@ -1,0 +1,5 @@
+jdk:
+  - openjdk11
+
+install:
+  - mvn -DskipTests -pl '!rre-search-platform-solr-impl,!rre-search-platform-solr,!rre-maven-plugin-solr' install
