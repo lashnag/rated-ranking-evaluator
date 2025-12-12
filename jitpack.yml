@@ -2,11 +2,4 @@ jdk:
   - openjdk11
 
 install:
-  # Отключаем ВСЕ Solr-модули
-  - mvn -DskipTests -pl \
-    '!rre-search-platform-solr,\
-    !rre-maven-plugin-solr,\
-    !rre-maven-solr-archetype,\
-    !rre-search-platform-external-solr,\
-    !rre-maven-plugin-external-solr' \
-    -am install
+  - mvn -DskipTests -pl "!rre-search-platform-solr,!rre-maven-plugin-solr,!rre-maven-solr-archetype,!rre-search-platform-external-solr,!rre-maven-plugin-external-solr" -am install
