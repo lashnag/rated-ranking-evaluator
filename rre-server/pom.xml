@@ -110,6 +110,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <classifier>FAT</classifier>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.rat</groupId>
