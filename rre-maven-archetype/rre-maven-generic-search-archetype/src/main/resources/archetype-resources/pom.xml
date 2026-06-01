@@ -40,13 +40,13 @@
             <plugin>
                 <groupId>io.sease</groupId>
                 <artifactId>rre-maven-generic-search-plugin</artifactId>
-                <version>1.2-SNAPSHOT</version>
+                <version>1.2</version>
                 <dependencies>
                     <!-- Add a dependency here on your implementation of SearchPlatform -->
                     <dependency>
                         <groupId>com.mysearch</groupId>
                         <artifactId>my-searchplatform-implementation</artifactId>
-                        <version>1.2-SNAPSHOT</version>
+                        <version>1.2</version>
                     </dependency>
                 </dependencies>
                 <!-- the configuration below is provided just for example, as it perfectly matches default values -->
@@ -92,7 +92,7 @@
             <plugin>
                 <groupId>io.sease</groupId>
                 <artifactId>rre-maven-report-plugin</artifactId>
-                <version>1.2-SNAPSHOT</version>
+                <version>1.2</version>
                 <configuration>
                     <formats>
                         <param>spreadsheet</param>
