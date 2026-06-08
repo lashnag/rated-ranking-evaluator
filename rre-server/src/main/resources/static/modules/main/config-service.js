@@ -15,7 +15,7 @@
          * The data request URL
          * @type {string}
          */
-        var requestUrl = "/evaluation";
+        var requestUrl = "evaluation";
 
         init();
 
